@@ -1,0 +1,79 @@
+- id: 0
+  title: Hyderabad
+  subtitle: 55
+  detail: A whimsical waste donning a wizard's attire, standing on hind legs amidst a starry night sky and a crescent moon, casting a spell of charm.
+  currency: ₹
+  amount: 55
+  endTime: 2024-05-01T00:00:00+00:00
+
+- id: 1
+  title: Bangalore
+  subtitle: 30
+  detail: Discarded electronic gadgets lying in heaps, emitting faint glows of their former lives, hinting at stories untold.
+  currency: ₹
+  amount: 45
+  endTime: 2024-06-15T00:00:00+00:00
+
+- id: 2
+  title: Mumbai
+  subtitle: 20
+  detail: Circuit boards tangled like urban jungles, wires whispering forgotten codes of binary dreams.
+  currency: ₹
+  amount: 25
+  endTime: 2024-07-20T00:00:00+00:00
+
+- id: 3
+  title: Delhi
+  subtitle: 40
+  detail: Plastic casings cracked, revealing glimpses of silicon hearts that once powered digital ambitions.
+  currency: ₹
+  amount: 35
+  endTime: 2024-08-10T00:00:00+00:00
+
+- id: 4
+  title: Chennai
+  subtitle: 25
+  detail: Abandoned screens reflecting ghostly images of past users, their presence still lingering in the ether.
+  currency: ₹
+  amount: 20
+  endTime: 2024-09-05T00:00:00+00:00
+
+- id: 5
+  title: Kolkata
+  subtitle: 50
+  detail: Batteries drained of life, memories fading away in a sea of forgotten currents.
+  currency: ₹
+  amount: 40
+  endTime: 2024-10-12T00:00:00+00:00
+
+- id: 6
+  title: Pune
+  subtitle: 35
+  detail: Discarded peripherals whispering tales of connectivity lost, longing for a digital reunion.
+  currency: ₹
+  amount: 30
+  endTime: 2024-11-18T00:00:00+00:00
+
+- id: 7
+  title: Ahmedabad
+  subtitle: 45
+  detail: Printers churning out blank pages of forgotten documents, their ink dried by the winds of time.
+  currency: ₹
+  amount: 50
+  endTime: 2024-12-03T00:00:00+00:00
+
+- id: 8
+  title: Jaipur
+  subtitle: 60
+  detail: Discarded smartphones, silent witnesses to the evolution of human connection, now disconnected.
+  currency: ₹
+  amount: 60
+  endTime: 2025-01-20T00:00:00+00:00
+
+- id: 9
+  title: Gurugram
+  subtitle: 28
+  detail: Data storage devices holding forgotten secrets, waiting to be unlocked by curious minds.
+  currency: ₹
+  amount: 25
+  endTime: 2025-02-14T00:00:00+00:00
