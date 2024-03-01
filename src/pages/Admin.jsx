@@ -10,19 +10,21 @@ function AdminPage() {
     <div className="container mt-3">
       <div className="d-flex justify-content-between mb-3">
         <button
-          className="btn btn-primary me-3"
+          className="btn me-3"
+          style={{backgroundColor:"#00bf00"}}
           onClick={() => editItems(undefined, true, false)}
         >
           Update All
         </button>
         <button
-          className="btn btn-primary me-3"
+          className="btn me-3"
+          style={{backgroundColor:"#00bf00"}}
           onClick={() => editItems(undefined, false, true)}
         >
           Reset All
         </button>
         <button
-          className="btn btn-primary"
+          className="btn "
           onClick={() => editItems(undefined, true, true)}
         >
           Update & Reset All

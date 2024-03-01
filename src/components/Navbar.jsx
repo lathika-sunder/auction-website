@@ -36,7 +36,7 @@ const Navbar = ({ admin }) => {
   };
 
   return (
-    <nav className="navbar navbar-dark bg-primary">
+    <nav className="navbar navbar-dark " style={{backgroundColor:"#00bf00"}}>
       <div className="container-fluid">
         <div className="navbar-brand mb-0 h1 me-auto">
           <img

@@ -66,7 +66,7 @@ const InfoModal = () => {
         </button>
         <button
           type="button"
-          className="btn btn-primary"
+          className="btn "style={{backgroundColor:"#00bf00"}}
           onClick={() => openModal(ModalTypes.BID, activeItem)}
           disabled={activeItem.endTime - new Date().getTime() < 0}
         >
@@ -129,7 +129,8 @@ const SignUpModal = () => {
         </button>
         <button
           type="submit"
-          className="btn btn-primary"
+          className="btn "
+          style={{backgroundColor:"#00bf00"}}
           onClick={handleSignUp}
         >
           Sign up
@@ -248,7 +249,8 @@ const BidModal = () => {
         </button>
         <button
           type="submit"
-          className="btn btn-primary"
+          className="btn "
+          style={{backgroundColor:"#00bf00"}}
           onClick={handleSubmitBid}
           disabled={isSubmitting}
         >

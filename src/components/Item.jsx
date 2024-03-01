@@ -86,7 +86,8 @@ const Item = ({ item }) => {
               disabled={biddingComplete}
               onClick={() => openModal(ModalTypes.BID, item)}
               type="button"
-              className="btn btn-primary"
+              className="btn"
+              style={{backgroundColor:"#11CB1197"}}
             >
               Submit bid
             </button>

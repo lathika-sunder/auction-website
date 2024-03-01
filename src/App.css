@@ -1,5 +1,9 @@
 html * {
-  font-family: "Roboto", sans-serif;
+  font-family:  sans-serif;
+
+}
+*{
+  font-weight: bold;
 }
 
 /* Bootstrap tweaks */
@@ -19,4 +23,7 @@ html * {
 
 .card > .table {
   margin-bottom: 0;
+}
+.bg-primary{
+ background-color: #00BF00AF;
 }

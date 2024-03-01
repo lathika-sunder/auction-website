@@ -50,19 +50,21 @@ const Row = ({ item }) => {
       <td>{timeLeft}</td>
       <td>
         <button
-          className="btn btn-primary me-3"
+          className="btn me-3"
+          style={{backgroundColor:"#00bf00"}}
           onClick={() => editItems(item.id, true, false)}
         >
           Update
         </button>
         <button
-          className="btn btn-primary me-3"
+          className="btn me-3"
+          style={{backgroundColor:"#00bf00"}}
           onClick={() => editItems(item.id, false, true)}
         >
           Reset
         </button>
         <button
-          className="btn btn-primary"
+          className="btn"
           onClick={() => editItems(item.id, true, true)}
         >
           Update & Reset
