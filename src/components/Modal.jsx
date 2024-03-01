@@ -101,7 +101,7 @@ const SignUpModal = () => {
   };
 
   return (
-    <Modal type={ModalTypes.SIGN_UP} title="Sign up for Markatplace Auction">
+    <Modal type={ModalTypes.SIGN_UP} title="Sign up for Revive Auction Auction">
       <div className="modal-body">
         <p>
           We use anonymous authentication provided by Google. Your account is
@@ -167,7 +167,7 @@ const BidModal = () => {
     // Disable bid submission while we submit the current request
     setIsSubmitting(true);
     // Ensure item has not already ended
-    if (activeItem.endTime - nowTime < 0) {
+    if (Math.abs(activeItem.endTime - nowTime )< 0) {
       setFeedback("Sorry, this item has ended!");
       setValid("is-invalid");
       delayedClose();

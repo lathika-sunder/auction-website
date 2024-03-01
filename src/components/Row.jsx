@@ -29,8 +29,8 @@ const Row = ({ item }) => {
       const now = Date.now();
       const remaining = item.endTime - now;
 
-      if (remaining > 0) {
-        setTimeLeft(formatTime(remaining));
+      if (remaining ) {
+        setTimeLeft(formatTime(Math.abs(remaining/1000)));
         requestAnimationFrame(updateTimer);
       } else {
         setTimeLeft("Item Ended");

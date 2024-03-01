@@ -12,7 +12,7 @@ const itemStatus = (item) => {
 const Item = ({ item }) => {
   const { openModal } = useContext(ModalsContext);
 
-  // const [primaryImageSrc, setPrimaryImageSrc] = useState("");
+  
   const [bids, setBids] = useState(0);
   const [amount, setAmount] = useState(item.startingPrice);
   const [timeLeft, setTimeLeft] = useState("");
@@ -27,10 +27,10 @@ const Item = ({ item }) => {
   useEffect(() => {
     const updateTimer = () => {
       const now = Date.now();
-      const remaining = item.endTime - now;
-
-      if (remaining > 0) {
-        setTimeLeft(formatTime(remaining));
+      const remaining = Math.abs(item.endTime - now);
+      console.log(Math.abs(remaining))
+      if (remaining ) {
+        setTimeLeft(formatTime(Math.abs(remaining)/1000));
         requestAnimationFrame(updateTimer);
       } else {
         setTimeLeft("Item Ended");

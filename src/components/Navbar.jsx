@@ -46,7 +46,7 @@ const Navbar = ({ admin }) => {
             height="24"
             className="d-inline-block align-text-top"
           />
-          The Markatplace
+          The Revive Auction
         </div>
         <div className="row row-cols-auto">
           <div className="navbar-brand">{user}</div>

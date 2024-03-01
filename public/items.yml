@@ -1,6 +1,6 @@
 - id: 0
   title: Hyderabad
-  subtitle: 55
+  subtitle: 55kg
   detail: A whimsical waste donning a wizard's attire, standing on hind legs amidst a starry night sky and a crescent moon, casting a spell of charm.
   currency: ₹
   amount: 55
@@ -8,7 +8,7 @@
 
 - id: 1
   title: Bangalore
-  subtitle: 30
+  subtitle: 30kg
   detail: Discarded electronic gadgets lying in heaps, emitting faint glows of their former lives, hinting at stories untold.
   currency: ₹
   amount: 45
@@ -16,7 +16,7 @@
 
 - id: 2
   title: Mumbai
-  subtitle: 20
+  subtitle: 20kg
   detail: Circuit boards tangled like urban jungles, wires whispering forgotten codes of binary dreams.
   currency: ₹
   amount: 25
@@ -24,7 +24,7 @@
 
 - id: 3
   title: Delhi
-  subtitle: 40
+  subtitle: 40kg
   detail: Plastic casings cracked, revealing glimpses of silicon hearts that once powered digital ambitions.
   currency: ₹
   amount: 35
@@ -32,7 +32,7 @@
 
 - id: 4
   title: Chennai
-  subtitle: 25
+  subtitle: 25kg
   detail: Abandoned screens reflecting ghostly images of past users, their presence still lingering in the ether.
   currency: ₹
   amount: 20
@@ -40,7 +40,7 @@
 
 - id: 5
   title: Kolkata
-  subtitle: 50
+  subtitle: 50kg
   detail: Batteries drained of life, memories fading away in a sea of forgotten currents.
   currency: ₹
   amount: 40
@@ -48,7 +48,7 @@
 
 - id: 6
   title: Pune
-  subtitle: 35
+  subtitle: 35kg
   detail: Discarded peripherals whispering tales of connectivity lost, longing for a digital reunion.
   currency: ₹
   amount: 30
@@ -56,7 +56,7 @@
 
 - id: 7
   title: Ahmedabad
-  subtitle: 45
+  subtitle: 45kg
   detail: Printers churning out blank pages of forgotten documents, their ink dried by the winds of time.
   currency: ₹
   amount: 50
@@ -64,7 +64,7 @@
 
 - id: 8
   title: Jaipur
-  subtitle: 60
+  subtitle: 60kg
   detail: Discarded smartphones, silent witnesses to the evolution of human connection, now disconnected.
   currency: ₹
   amount: 60
@@ -72,7 +72,7 @@
 
 - id: 9
   title: Gurugram
-  subtitle: 28
+  subtitle: 28kg
   detail: Data storage devices holding forgotten secrets, waiting to be unlocked by curious minds.
   currency: ₹
   amount: 25
